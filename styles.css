@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+.nav-bar {
+  border: 1px solid green;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.icons-menu img {
+  border: 1px solid blue;
+}
+
+.nav-bar ul {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-bar li {
+  margin: 0 20px;
+}
+
+@media only screen and (min-width: 600px) {
+  .nav-bar ul {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+  }
+}
